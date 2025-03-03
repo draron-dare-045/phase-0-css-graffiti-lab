@@ -1,1 +1,30 @@
-/* write your override styles here */
+#wall * {
+    all: unset; 
+    display: none; 
+}
+
+#wall {
+    background-color: white; 
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+#wall div {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid #ccc; 
+}
+
+#tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+    background: none !important; 
+    color: black !important; 
+    font-family: Arial, sans-serif !important; 
+}
+
+.slick, .wicked {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    transform: none !important;
+    filter: none !important;
+}
